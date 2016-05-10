@@ -9,9 +9,9 @@ function _sendMail() {
 	}
 	var user="";
 	if ($('#cname').val() != '') {
-		user = gender + "" + $('#cname').val() + "";
+		user = gender + " " + $('#cname').val() + "";
 	}
-	window.open("mailto:andrey.nikiforov@my2bytes.com?subject=Inquiry of "+user+"from My2bytes site&body="+$('#ccomment').val()+"",'_blank');
+	window.open("mailto:sales@my2bytes.com?subject=Inquiry of "+user+" from My2Bytes site&body="+$('#ccomment').val()+"",'_blank');
 	location.href = "#Contacts";
 }
 
