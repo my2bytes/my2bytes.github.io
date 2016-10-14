@@ -116,10 +116,19 @@ p {
 	padding-bottom: 40px;
 }
 
-.about-description p{
+p {
 	font-size: 18px;
 	line-height:  30px;
+}
+.about-description p {
 	padding-bottom: 130px;
+}
+.cnt-description {
+	padding-bottom: 130px;
+}
+.cnt-description .row {
+	margin-left: 0px;
+	margin-right: 0px;
 }
 
 .icon{	
