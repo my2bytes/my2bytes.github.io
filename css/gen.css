@@ -678,3 +678,149 @@ svg .darkCloud {
 .navbar-brand {
 	padding-top7: 5px;
 }
+
+/* Product */
+.cnt-product {
+	padding-bottom: 90px;
+}
+.cnt-product p {
+	font-size: 14px;
+	line-height: 22px;
+}
+.section-grey {
+	background-color: #f1f0f0;
+}
+.border-grey {
+	border: 1px solid #ccc;
+}
+.thumbnail {
+	border-width: 0px;
+}
+.risk-list {
+	vertical-align: top;
+}
+.risk-list span {
+	display: inline-block;
+	vertical-align: top;
+}
+.risk-list span.big-num {
+	font-size: 3em;
+	margin-right: 10px;
+	vertical-align: top;
+	color: #999;
+}
+ul.gantt-chart {
+	list-style: none;
+}
+.gantt-chart li {
+	font-weight7: bold;
+	font-size: 40px;
+	margin-left: 40px;
+	margin-right: -40px;
+	padding-left: 0px;
+	color: #777;
+}
+.gantt-chart li.orange {
+	color: #ff9a15;
+}
+.gantt-chart li.orange > p:first-child strong {
+	color: #ff9a15;
+}
+.gantt-chart li p {
+	font-weight: normal;
+	padding-right: 50px;
+	color: #000;
+}
+.gantt-chart li > p:first-child {
+	padding-bottom: 10px;
+	font-weight: normal;
+	font-size: 18px;
+}
+.gantt-chart li > p:first-child strong {
+	font-weight: 600;
+}
+.gantt-chart li > p:first-child strong span {
+	font-weight: 700;
+}
+.gantt-chart li > p:first-child small {
+	font-size: 12px;
+	line-height: 12px;
+	color: #fff;
+	background-color: #1b75bb;
+	padding: 4px 8px;
+	border-radius: 2px;
+	display: inline-block;
+	margin-top: 10px;
+}
+ul.icons-free li:after {
+	content: "";
+	background-image: url('../images/i_free_use.png');
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 55px;
+	height: 55px;
+	position: absolute;
+	left: -65px;
+	top: -5px;
+}
+ul.icons-free li:nth-child(1):after {
+	background-image: url('../images/i_free_setup.png');
+}
+ul.icons-free li:nth-child(2):after {
+	background-image: url('../images/i_free_use.png');
+}
+ul.icons-free li:nth-child(3):after {
+	background-image: url('../images/i_free_cancel.png');
+}
+ul.icons-free li:nth-child(4):after {
+	background-image: url('../images/i_free_pay_extra.png');
+}
+ul.icons-free li {
+	margin-left7: 60px;
+	margin-right7: -60px;
+	margin-left: 80px;
+	margin-right: -100px;
+	/* padding-left: 60px; */
+	padding-right: 60px;
+}
+h3 {
+	line-height: 36px;
+}
+h4 {
+	line-height: 28px;
+	margin-bottom: 40px;
+}
+.tooltip-inner {
+	max-width: 300px;
+	padding: 3px 8px;
+	color: #fff;
+	text-align: left;
+	background-color: #3e3e3e;
+	border-radius: 4px;
+	font-weight: 300;
+}
+.tooltip.top .tooltip-arrow {
+	border-top-color: #3e3e3e;
+}
+.tooltip.bottom .tooltip-arrow {
+	border-bottom-color: #3e3e3e;
+}
+.my_svg_tooltip {
+	cursor: pointer;
+}
+.my_svg_tooltip:hover {
+	opacity: .9;
+}
+.glyphicon {
+	font-family: 'FontAwesome';
+}
+.glyphicon-chevron-left:before {
+	content: "\f053";
+}
+.glyphicon-chevron-right:before {
+	content: "\f054";
+}
+svg .week-day {
+	text-transform: uppercase;
+}
